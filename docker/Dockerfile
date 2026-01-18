@@ -1,4 +1,4 @@
-FROM node:16.16.0
+FROM node:16.16.0-bullseye
 
 RUN apt-get update && apt-get -y install git && rm -rf /var/lib/apt/lists/*
 
